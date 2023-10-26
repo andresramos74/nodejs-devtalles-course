@@ -5,3 +5,11 @@ Como node ejecuta el código
 Node es un código nobloqueante, single thread -> https://nodejs.org/en/docs/guides/blocking-vs-non-blocking
 gracias a libuv es un non-blocking I/O
 
+expresiones regulares
+función match
+funciones flecha de javascript
+
+
+
+
+

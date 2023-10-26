@@ -43,7 +43,6 @@ Iconos – Material Icon Theme
 Wallpapers Developer
 Comunidad de Discord
 
-
 Node Version Manager - NVM
 
 nvm --Version
