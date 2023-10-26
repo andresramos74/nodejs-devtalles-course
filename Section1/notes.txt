@@ -1,2 +1,54 @@
-This is a check to see if files can be synched
-Siguiente PR
+Curso de node con Fernando Herrera
+
+Se reuquieren para el curso conocimientos básicos en javascript cómo mínimo.
+
+El punto fuerte principal de aprender node es que permite ejecutar JS desde el lado del servidor.
+
+Instalaciones recomendadas - Curso de NodeJS
+Necesarias
+-Visual Studio Code -> https://code.visualstudio.com/
+-Postman -> https://www.postman.com/downloads/
+-MongoDB Compass -> https://www.mongodb.com/try/download/compass
+-Table Plus -> https://tableplus.com/
+-Git -> https://git-scm.com/
+
+git config --global user.name "Tu nombre"
+git config --global user.email "Tu correo"
+
+-Node -> https://nodejs.org/es/
+
+-Google Chrome -> https://www.google.com.mx/intl/es-419/chrome/?brand=CHBD&gclid=Cj0KCQiAtrnuBRDXARIsABiN-7AAMm13Ae3KDIib46Laxfe6tzD_w4yvDdpq5XsPw1eNlOkZ_0-3x3IaAvLEEALw_wcB&gclsrc=aw.ds
+-Docker Desktop -> https://www.docker.com/get-started
+
+Descargar imágenes de Docker - Opcional, pero llegaremos a necesitarlas después
+
+docker pull mongo:6.0.6
+docker pull postgres:15.3
+
+Extensiones de VSCode
+
+Instalaciones adicionales
+Activitus Bar
+Prisma
+Paste JSON as Code 
+.env (dotENV) de mikestead
+Better DockerFile Syntax
+Better Comments
+Docker VsCode
+
+Terminal
+Tema y wallpaper que estoy usando:
+Tokyo Night
+Iconos – Material Icon Theme
+Wallpapers Developer
+Comunidad de Discord
+
+
+Node Version Manager - NVM
+
+nvm --Version
+nvm install 10
+nvm use 10
+nvm install 18
+nvm use 18
+
