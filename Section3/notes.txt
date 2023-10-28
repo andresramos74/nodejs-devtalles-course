@@ -1,0 +1,11 @@
+Primeros pasos de node, reforsamiento de javascript. 
+
+Recomienda que se estudie bien las bases fundamentales de javascript.
+
+Buenas prácticas de desarrollo de software
+Dependendias de terceros como axios
+Dependencias de desarrollo y producción
+
+Cuando se hacen cambios en el desarrollo y no tener que tocar todo
+
+Factory functions
