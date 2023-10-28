@@ -55,3 +55,15 @@ en el package json están los scripts para ejecutar el programa.
 npm "start" es un comando especial reconocido por node, no es lo mismo que "dev".
 
 start siempre debe manejarse como el que levanta la aplicación en producción
+
+Para configurar que automáticamente se cree la rama en remote siempre que se cree una nueva rama en local
+
+git config --global --add --bool push.autoSetupRemote true
+
+Se debe aplicar el principio de responsabilidad única SIEMPRE, esto es
+que cada uno de nuestros archivos haga una cosa y la haga bien.
+
+Cada archivo en node es un objecto encapsulado, no se pueden usar las funciones si no se exportan desde dicho módulo
+
+se recomeinda exportar con module.exports = { "nombre del módulo" }, es buena práctica exportar como objeto 
+porque en un futuro se pueden incorporar mas componentes al módulo y que se necesiten en otra parte de la app
