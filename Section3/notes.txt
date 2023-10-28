@@ -67,3 +67,27 @@ Cada archivo en node es un objecto encapsulado, no se pueden usar las funciones 
 
 se recomeinda exportar con module.exports = { "nombre del módulo" }, es buena práctica exportar como objeto 
 porque en un futuro se pueden incorporar mas componentes al módulo y que se necesiten en otra parte de la app
+
+
+const { emailTemplate } = require("./01-js-foundations/01-template"); // forma tradicional de importar modulos en node, 
+no es con el import {} from "" como se importa en js
+
+Nodemon
+
+Es tedioso estar haciendo "npm start" para probar el código, esta no es la forma habitual de trabajar con node.
+
+Nodemon es una herramienta que monitorea cambios en la aplicación para que inmediatamente recargue esta misma
+
+para instalarlo en consola: npm install --save-dev nodemon
+
+si se quiere instalar de forma global para todos los proyectos en el UDE se reemplaza "--save-dev" por "-g", esto 
+depende de la práctica, a Fernando Hernandez no le gusta instalar paquetes globales por lo general, por lo que recomienda que sea por proyectos
+
+en package.json se agregan estas lineas luego de la información de la licencia.
+
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+
+  No se debe usar nodemon en un ambiente productivo. devDependencies nunca llegan a producción. Nodemon es un buen ejemplo de una dependencia de 
+  desarrollo pues en producción no se necesita estar haceidno redeployments y por tanto no se necesita nodemon en producción.
