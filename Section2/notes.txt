@@ -9,7 +9,18 @@ expresiones regulares
 función match
 funciones flecha de javascript
 
+Event loop resuelve los problemas de JS, en node
+node resuelve de JS
+1. single threaded
+2. bloqueante
 
+Node tiene tres componentes principales
 
-
-
+1. JS library
+2. C/C++ features
+3. Dependencies:
+    -V8
+    -libuv: permite trabajar en peticiones asíncronas
+    -zlib
+    -cripto
+    -etc
