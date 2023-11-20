@@ -91,3 +91,7 @@ en package.json se agregan estas lineas luego de la información de la licencia.
 
   No se debe usar nodemon en un ambiente productivo. devDependencies nunca llegan a producción. Nodemon es un buen ejemplo de una dependencia de 
   desarrollo pues en producción no se necesita estar haceidno redeployments y por tanto no se necesita nodemon en producción.
+
+  Depuración, se puede hacer desde package.json
+
+  

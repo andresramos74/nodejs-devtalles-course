@@ -1,3 +1,4 @@
-const { emailTemplate } = require("./01-js-foundations/01-template"); // forma tradicional de importar modulos en node, no es con el import {} from "" como se importa en js
-require("./01-js-foundations/02-destructuring");
+// const { emailTemplate } = require("./01-js-foundations/01-template"); // forma tradicional de importar modulos en node, no es con el import {} from "" como se importa en js
+// require("./01-js-foundations/02-destructuring");
+require("./01-js-foundations/03-callbacks");
 // console.log(emailTemplate);
